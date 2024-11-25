@@ -112,7 +112,7 @@ export function App() {
         <div className="flex flex-row justify-between items-center pt-20">
           <div className="flex flex-row gap-2">
             <p className="font-biryani text-base text-[#392B4A]">
-              take a peak{" "}
+              Take a peak{" "}
             </p>
             <ArrowCircleDown size={24} className="text-[#392b4a]" />
           </div>
@@ -127,9 +127,18 @@ export function App() {
         </div>
 
         <div className="flex flex-row justify-between pb-20 pt-10">
-          <img src="/Group 5.png" className="h-[350px]" />
-          <img src="/Group 6.png" className="h-[350px]" />
-          <img src="/Group 7.png" className="h-[350px]" />
+          <img
+            src="/Group 5.png"
+            className="h-[350px] hover:motion-preset-shake motion-ease-spring-smooth "
+          />
+          <img
+            src="/Group 6.png"
+            className="h-[350px] hover:motion-preset-shake"
+          />
+          <img
+            src="/Group 7.png"
+            className="h-[350px] hover:motion-preset-shake"
+          />
         </div>
       </div>
 
